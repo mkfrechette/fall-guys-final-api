@@ -73,6 +73,7 @@ app.get('/api/:round', (request, response)=>{
 })
 
 //server needs to listen
-app.listen(PORT, ()=>{
+//process.env.PORT || PORT --> heroku has a port set up in mind already, can't hard code PORT. It' saying try using whatever heroku is setting up as the port, and if it doesn't exist use the hardcoded PORT
+app.listen(process.env.PORT || PORT, ()=>{
     console.log(`The server is now running on port ${PORT}`)
 })
