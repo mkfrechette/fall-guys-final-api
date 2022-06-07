@@ -10,49 +10,65 @@ const finalRounds = { //made lower case names
         'objective': 'Grab the crown!',
         'howToPlay': 'Reach the top of the mountain first and use Grab to GRAB the CROWN!',
         'participants': '2-9',
-        'addedIn': 'Beta (25 July 2020)'
+        'addedIn': 'Beta (25 July 2020)',
+        'timeOutPossible': 'no',
+        'tiePossible': 'yes'
     },
     'hex-a-gone': {
         'objective': 'Last one standing!',
         'howToPlay': 'Floor pieces fall away when you stand on them - keep moving and survive longest to WIN the CROWN!',
         'participants': '4-12',
-        'addedIn': 'Beta (July 2020)'
+        'addedIn': 'Beta (July 2020)',
+        'timeOutPossible': 'yes',
+        'tiePossible': 'no'
        },
     'jump showdown': {
         'objective': 'Last one standing!',
         'howToPlay': 'JUMP over the spinning beam and avoid the falling floor to WIN the CROWN!',
         'participants': '2-12',
-        'addedIn': 'Beta (July 2020)'
+        'addedIn': 'Beta (July 2020)',
+        'timeOutPossible': 'yes',
+        'tiePossible': 'no'
        },
     'lost temple': {
         'objective': 'Grab the crown!',
         'howToPlay': 'Break through doors to reach the crown at the end of the maze - some are real, some are fake!',
         'participants': '2-15',
-        'addedIn': 'Season 5 (20 July 2021)'
+        'addedIn': 'Season 5 (20 July 2021)',
+        'timeOutPossible': 'no',
+        'tiePossible': 'yes'
        },
     'roll off': {
         'objective': 'Don\'t fall off!',
         'howToPlay': 'Move between rotating rings to avoid the rising slime!',
         'participants': '2-10',
-        'addedIn': 'Season 3 (15 December 2020)'
+        'addedIn': 'Season 3 (15 December 2020)',
+        'timeOutPossible': 'yes',
+        'tiePossible': 'no'
        },
     'royal fumble': {
         'objective': 'Grab the tail!',
         'howToPlay': 'Use Grab to GRAB the TAIL and make sure you\'re wearing it when the timer runs out to WIN!',
         'participants': '4-6',
-        'addedIn': 'Beta (25 July 2020)'
+        'addedIn': 'Beta (25 July 2020)',
+        'timeOutPossible': 'no',
+        'tiePossible': 'no'
        },
     'thin ice': {
         'objective': 'Don\'t fall through!',
         'howToPlay': 'Stay atop the cracking ice to avoid the slime below!',
         'participants': '3-12',
-        'addedIn': 'Season 3 (15 December 2020)'
+        'addedIn': 'Season 3 (15 December 2020)',
+        'timeOutPossible': 'yes',
+        'tiePossible': 'no'
        },
     'unknown': {
         'objective': 'unknown',
         'howToPlay': 'unknown',
         'participants': 'unknown',
-        'addedIn': 'unknown'
+        'addedIn': 'unknown',
+        'timeOutPossible': 'unknown',
+        'tiePossible': 'unknown'
     }
 }
 //looks like an event listener. instead of a click, it's a network request. when it hears network request, it fires a function, the request response etc
